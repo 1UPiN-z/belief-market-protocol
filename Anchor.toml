@@ -1,0 +1,9 @@
+[programs.devnet]
+belief_market_protocol = "replace-with-the-deployed-program-id"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
